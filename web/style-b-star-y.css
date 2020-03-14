@@ -30,8 +30,8 @@ span.cl_tt {
 }
 
 span.cl_copyright {
-    font-family: "Times";
-    font-size: 85%;
-    text-color: navy;
+    font-family: "Times New Roman", Georgia, serif ;
+    font-size: 95%;
+    color: navy;
 }
 /* end file file web/style-b-star-y.css  */
