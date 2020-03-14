@@ -18,12 +18,12 @@ The CCBYSA4 license is on https://creativecommons.org/licenses/by-sa/4.0/
 
 The copyright owner is by default
 
-   Basile Starynkevitch   <basile@staynkevitch.net>
-   8 rue de la Faïencerie
-   92340 Bourg La Reine
-   France
+ *  [Basile Starynkevitch](http://starynkevitch.net/Basile/)   <basile@staynkevitch.net>
+ *  8 rue de la Faïencerie,
+   92340 [Bourg La Reine](https://en.wikipedia.org/wiki/Bourg-la-Reine),
+   [France](http://en.wikipedia.org/wiki/France)
    
-   mobile phone: +33 6 8501 2359
+   mobile phone: +33 6 8501 2359; 
    personal web page: http://starynkevitch.net/Basile
 
 ## opinions
