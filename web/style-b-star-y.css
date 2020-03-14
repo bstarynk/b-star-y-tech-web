@@ -28,4 +28,10 @@ footer {
 span.cl_tt {
     font-family: "Lucida Console", Monaco, monospace;
 }
+
+span.cl_copyright {
+    font-family: "Times";
+    font-size: 85%;
+    text-color: navy;
+}
 /* end file file web/style-b-star-y.css  */
