@@ -16,11 +16,14 @@
 ##  You should have received a copy of the GNU General Public License
 ##  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 export BSTARY_WEBHOST=ovh.starynkevitch.net
-rsync --verbose --checksum --relative \
-      --update --inplace  --backup --copy-links \
-      --copy-dirlinks  --perms --executability --times \
-      --one-file-system  --compress \
-      --exclude='*~ *.o install-web.sh' \
-      --dry-run --progress        \
-      $(realpath $(dirname $(which $0))) \
-      rsync:://$BSTARY_WEBHOST/home/www/html/b-star-y.tech
+ping -v -c 1 $BSTARY_WEBHOST
+#sync --verbose --verbose --info=progress --stats --checksum --relative \
+#     --update --inplace  --backup --copy-links \
+#     --copy-dirlinks  --perms --executability --times \
+#     --one-file-system  --compress --timeout=4 \
+#     --exclude='*~'  --exclude='*.o' --exclude='install-web.sh' \
+#     --dry-run --progress        \
+#     $(realpath $(dirname $(which $0))) \
+#     $BSTARY_WEBHOST::b-star-y
+scp -vTr web $BSTARY_WEBHOST:/home/www/html/b-star-y.tech
+times
