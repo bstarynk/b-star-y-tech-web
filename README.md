@@ -18,7 +18,7 @@ The CCBYSA4 license is on https://creativecommons.org/licenses/by-sa/4.0/
 
 The copyright owner is by default
 
- *  [Basile Starynkevitch](http://starynkevitch.net/Basile/)   <basile@staynkevitch.net>
+ *  [Basile Starynkevitch](http://starynkevitch.net/Basile/), email:   <basile-freelance@staynkevitch.net>
  *  8 rue de la Faïencerie,
    92340 [Bourg La Reine](https://en.wikipedia.org/wiki/Bourg-la-Reine),
    [France](http://en.wikipedia.org/wiki/France)
