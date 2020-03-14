@@ -1,5 +1,6 @@
-# This repository contains the public files of the b-star-y.tech website
+# public files of the http://b-star-y.tech website
 
+See website http://b-star-y.tech/
 
 ## licenses
 
