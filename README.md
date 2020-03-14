@@ -1,6 +1,6 @@
 # public files of the http://b-star-y.tech website
 
-See website http://b-star-y.tech/
+See the website http://b-star-y.tech/ and these files on https://github.com/bstarynk/b-star-y-tech-web
 
 ## licenses
 

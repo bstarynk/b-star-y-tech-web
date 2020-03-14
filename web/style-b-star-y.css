@@ -1,0 +1,31 @@
+/*** file web/style-b-star-y.css on github.com/bstarynk/b-star-y-tech-web 
+ * for http://b-star-y.tex
+ *    © Copyright 2020 Basile Starynkevitch
+ *    under CC BY SA 4 license http://creativecommons.org/licenses/by-sa/4.0/
+ ***/
+
+body {
+    background-color: seashell;
+}
+
+nav {
+    padding: 4px;
+    font-size: 90%;
+    background-color: peachpuff;
+}
+
+a.cl_navlink {
+    font-size: 90%;
+    margin: 3px;
+    padding: 2px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 85%;
+}
+
+span.cl_tt {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+/* end file file web/style-b-star-y.css  */
