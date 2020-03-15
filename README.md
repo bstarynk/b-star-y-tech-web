@@ -38,9 +38,17 @@ We use [FastCGI](https://en.wikipedia.org/wiki/FastCGI) techniques in
 C++ for [lighttpd](https://www.lighttpd.net/). So we depend upon
 [libfastcgi++](https://fastcgipp.isatec.ca/) -LGPLv3 licensed- and
 [SQlite++](https://github.com/SRombauts/SQLiteCpp) -MIT licensed- and
-of course [GCC 9](https://gcc.gnu.org/gcc-9/)
+[UTF-CPP](https://github.com/ww898/utf-cpp) -MIT licensed- and of
+course [GCC 9](https://gcc.gnu.org/gcc-9/)
 
 
 ## installation
 
-Read, understand, edit and adapt the `./install-web.sh` shell script then run it.
+Of course, **install all the dependencies listed above** (we assume
+they are available in `/usr/local/` or `/usr/` prefix, as understood
+by [cmake](http://cmake.org/) or [GNU
+autotools](https://en.wikipedia.org/wiki/GNU_Autotools) etc...)
+
+Then read, understand, edit and **adapt the `./install-web.sh` shell script and then run it**.
+
+### Basile Starynkevitch (2020, France)

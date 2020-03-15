@@ -22,5 +22,47 @@
     Contact me (Basile Starynkevitch) by email
     basile@starynkevitch.net
 **/
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif /*_GNU_SOURCE*/
+
+
+#include <algorithm>
+#include <atomic>
+#include <atomic>
+#include <cassert>
+#include <clocale>
+#include <cmath>
+#include <condition_variable>
+#include <cstdio>
+#include <cstring>
+#include <deque>
+#include <fstream>
+#include <functional>
+#include <functional>
+#include <initializer_list>
+#include <iomanip>
+#include <iostream>
+#include <istream>
+#include <limits>
+#include <locale>
+#include <map>
+#include <memory>
+#include <mutex>
+#include <new>
+#include <ofstream>
+#include <random>
+#include <set>
+#include <set>
+#include <shared_mutex>
+#include <sstream>
+#include <stdexcept>
+#include <string>
+#include <thread>
+#include <typeinfo>
+#include <unordered_map>
+#include <unordered_set>
+#include <variant>
+#include <vector>
 
 #endif /*BSYF_HEADER_INCLUDED*/
