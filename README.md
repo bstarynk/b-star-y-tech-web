@@ -13,7 +13,6 @@ The GPLv3 license is on https://www.gnu.org/licenses/gpl-3.0.en.html
 
 The CCBYSA4 license is on https://creativecommons.org/licenses/by-sa/4.0/
 
-
 ## copyright owner
 
 The copyright owner is by default
@@ -32,3 +31,16 @@ Opinions here are only mine
 
 Les opinions exprimées ici ne sont que les miennes
 
+
+## dependencies
+
+We use [FastCGI](https://en.wikipedia.org/wiki/FastCGI) techniques in
+C++ for [lighttpd](https://www.lighttpd.net/). So we depend upon
+[libfastcgi++](https://fastcgipp.isatec.ca/) -LGPLv3 licensed- and
+[SQlite++](https://github.com/SRombauts/SQLiteCpp) -MIT licensed- and
+of course [GCC 9](https://gcc.gnu.org/gcc-9/)
+
+
+## installation
+
+Read, understand, edit and adapt the `./install-web.sh` shell script then run it.
