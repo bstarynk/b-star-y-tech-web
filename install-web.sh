@@ -1,6 +1,6 @@
 #!/bin/bash -x
 ## script install-web.sh on https://github.com/bstarynk/b-star-y-tech-web
-## see http://rsync.samba.org/
+## see http://rsync.samba.org/ and https://www.openssh.com/
 ##  Copyright © 2020 Basile Starynkevitch
 ##
 ##  This program is free software: you can redistribute it and/or modify
