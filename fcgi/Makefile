@@ -31,6 +31,9 @@ BSYFCGI_HEADERS := $(sort $(wildcard bsyf_*.hh))
 BSYFCGI_OBJECTS = $(pathsubst %.cc,%.o,$(BSYFCGI_SOURCES))
 BSYFGCI_OPTIMFLAGS = -O1 -g
 BSYFCGI_WARNFLAGS = -Wall -Wextra
+# https://github.com/eddic/fastcgipp.git
+# https://github.com/SRombauts/SQLiteCpp
+BSYFCGI_LIBS = -fastcgipp -lSQLiteCpp -lsqlite3
 BSYFCGI_DIALECT= -std=gnu++17
 
 all: fcgi
@@ -40,6 +43,7 @@ clean:
 	$(RM) _* *.tmp *~
 
 fcgi: b-stary-tech.fcgi
+
 b-stary-tech.fcgi: _bsyf-timestamp.o $(BSYFCGI_OBJECTS)
 	$(LINK.cc) $(LDFLAGS) _bsyf-timestamp.o $(BSYFCGI_OBJECTS) $(BSYFCGI_LIBS) -o $@
 

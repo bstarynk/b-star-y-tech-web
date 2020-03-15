@@ -39,7 +39,8 @@ C++ for [lighttpd](https://www.lighttpd.net/). So we depend upon
 [libfastcgi++](https://fastcgipp.isatec.ca/) -LGPLv3 licensed- and
 [SQlite++](https://github.com/SRombauts/SQLiteCpp) -MIT licensed- and
 [UTF-CPP](https://github.com/ww898/utf-cpp) -MIT licensed- and of
-course [GCC 9](https://gcc.gnu.org/gcc-9/)
+course [GCC 9](https://gcc.gnu.org/gcc-9/) with [ccache](https://ccache.dev/).
+We use [GNU make](https://www.gnu.org/software/make/) or [remake](http://bashdb.sourceforge.net/remake/).
 
 
 ## installation

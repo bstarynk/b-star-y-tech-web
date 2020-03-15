@@ -1,7 +1,7 @@
 #ifndef BSYF_HEADER_INCLUDED
 #define BSYF_HEADER_INCLUDED 1
 
-/**
+/**file fcgi/bsyf_header.cc on https://github.com/bstarynk/b-star-y-tech-web
      
     Copyright © 2020 Basile Starynkevitch.
 
@@ -26,7 +26,7 @@
 #define _GNU_SOURCE 1
 #endif /*_GNU_SOURCE*/
 
-
+/// standard C++17 headers
 #include <algorithm>
 #include <atomic>
 #include <atomic>
@@ -53,7 +53,6 @@
 #include <ofstream>
 #include <random>
 #include <set>
-#include <set>
 #include <shared_mutex>
 #include <sstream>
 #include <stdexcept>
@@ -64,5 +63,12 @@
 #include <unordered_set>
 #include <variant>
 #include <vector>
+
+
+/// https://github.com/ww898/utf-cpp
+#include "utf-cpp/cp_utf8.hpp"
+
+// https://github.com/SRombauts/SQLiteCpp
+#include "SQLiteCpp/SQLiteCpp.h"
 
 #endif /*BSYF_HEADER_INCLUDED*/
