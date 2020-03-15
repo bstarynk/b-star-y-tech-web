@@ -51,4 +51,4 @@ autotools](https://en.wikipedia.org/wiki/GNU_Autotools) etc...)
 
 Then read, understand, edit and **adapt the `./install-web.sh` shell script and then run it**.
 
-### Basile Starynkevitch (2020, France)
+#### Copyright © 2020 [Basile Starynkevitch](http://starynkevitch.net/Basile/index_en.html) (France)
